@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Renat Tasks Bridge is a private, read-only integration for accessing the owner's Google Tasks through MCP from ChatGPT."
+    >
+    <link rel="canonical" href="https://renatmakes.github.io/google-tasks-mcp/">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b6b6f'/%3E%3Cpath d='M18 43V29a14 14 0 0 1 28 0v14' fill='none' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E"
+    >
+    <title>Renat Tasks Bridge</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-shell header-row">
+        <a class="brand" href="../" aria-label="Renat application information home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span>Renat Tasks Bridge</span>
+        </a>
+        <nav aria-label="Application information">
+          <a href="./" aria-current="page">Home</a>
+          <a href="./privacy/">Privacy</a>
+          <a href="./terms/">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="site-shell page-main">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Private personal integration</p>
+        <h1 id="page-title">Renat Tasks Bridge</h1>
+        <p class="lede">
+          A personal bridge that lets its owner read selected information from their
+          own Google Tasks account through an MCP integration used from ChatGPT.
+        </p>
+
+        <div class="data-flow" aria-label="How requested data moves">
+          Owner request → ChatGPT → MCP bridge → Google Tasks API
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="Current access and availability">
+        <article class="feature-card">
+          <p class="status-label">Current OAuth access</p>
+          <h2>Read-only</h2>
+          <p>
+            The application currently requests only
+            <code>https://www.googleapis.com/auth/tasks.readonly</code>. With this
+            configuration it does not create, change, complete, or delete tasks.
+          </p>
+        </article>
+        <article class="feature-card">
+          <p class="status-label">Availability</p>
+          <h2>Owner only</h2>
+          <p>
+            The integration is built for Renat's personal use and is not offered to
+            other users. This website does not provide registration or account access.
+          </p>
+        </article>
+      </section>
+
+      <section aria-labelledby="policies-title">
+        <h2 id="policies-title">Policies and disclosures</h2>
+        <p>
+          These pages explain what the integration can access, why selected data is
+          processed, and the conditions for personal use.
+        </p>
+        <div class="policy-links">
+          <article class="policy-card">
+            <h2>Privacy Policy</h2>
+            <p>Data access, handling, storage, retention, and security practices.</p>
+            <a href="./privacy/">Read the Privacy Policy</a>
+          </article>
+          <article class="policy-card">
+            <h2>Terms of Service</h2>
+            <p>Conditions and limitations for this personal experimental tool.</p>
+            <a href="./terms/">Read the Terms of Service</a>
+          </article>
+        </div>
+      </section>
+
+      <aside class="notice" aria-label="Independence notice">
+        Renat Tasks Bridge is an independent personal project. It is not affiliated
+        with, endorsed by, or an official product of Google LLC or OpenAI.
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell footer-row">
+        <span>Renat Tasks Bridge · Personal use only</span>
+        <a href="https://github.com/renatmakes/renatmakes.github.io/issues">Contact through GitHub Issues</a>
+      </div>
+    </footer>
+  </body>
+</html>

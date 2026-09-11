@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy for Renat Tasks Bridge.">
+    <link rel="canonical" href="https://renatmakes.github.io/google-tasks-mcp/privacy/">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b6b6f'/%3E%3Cpath d='M18 43V29a14 14 0 0 1 28 0v14' fill='none' stroke='white' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E"
+    >
+    <title>Privacy Policy — Renat Tasks Bridge</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-shell header-row">
+        <a class="brand" href="../../" aria-label="Renat application information home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span>Renat Tasks Bridge</span>
+        </a>
+        <nav aria-label="Application information">
+          <a href="../">Home</a>
+          <a href="./" aria-current="page">Privacy</a>
+          <a href="../terms/">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="site-shell page-main legal-page">
+      <header class="hero compact-hero">
+        <p class="eyebrow">Renat Tasks Bridge</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: September 11, 2026</p>
+      </header>
+
+      <article class="legal-content">
+        <p>
+          Renat Tasks Bridge is a private integration built for and used by its owner,
+          Renat. This policy describes how the application handles Google Tasks data
+          when the owner makes an explicit request through the MCP integration.
+        </p>
+
+        <h2>Google data the application can access</h2>
+        <p>
+          The current OAuth configuration requests only the read-only scope
+          <code>https://www.googleapis.com/auth/tasks.readonly</code>. This scope may
+          allow the application to read:
+        </p>
+        <ul>
+          <li>task list names and identifiers;</li>
+          <li>task titles and notes;</li>
+          <li>completion status and due dates;</li>
+          <li>task identifiers; and</li>
+          <li>task hierarchy data, including parent relationships when provided.</li>
+        </ul>
+
+        <h2>Purpose of processing</h2>
+        <p>
+          The data is used only to carry out the owner's explicit request and to show
+          the selected information back to the owner through ChatGPT and the MCP
+          integration. It is not used to build advertising profiles or for unrelated
+          purposes.
+        </p>
+
+        <h2>Data transmission and sharing</h2>
+        <ul>
+          <li>The application accesses data through the Google Tasks API.</li>
+          <li>
+            Selected results may be transmitted to OpenAI and ChatGPT when the owner
+            invokes the corresponding MCP tool.
+          </li>
+          <li>
+            Processing performed by Google and OpenAI is governed by their own terms
+            and privacy policies.
+          </li>
+          <li>The application does not sell Google user data.</li>
+          <li>The application does not use Google user data for advertising.</li>
+          <li>The application does not disclose Google user data to other third parties.</li>
+        </ul>
+
+        <h2>Storage</h2>
+        <ul>
+          <li>
+            OAuth credentials are stored only on a computer or server controlled by
+            the owner, with access restricted by the owner.
+          </li>
+          <li>
+            Task content is not copied into a separate persistent database maintained
+            by the application.
+          </li>
+          <li>
+            Technical logs are designed not to contain task titles, task notes, OAuth
+            tokens, or HTTP authorization data.
+          </li>
+          <li>This public website uses no cookies, analytics, forms, or client-side scripts.</li>
+        </ul>
+
+        <h2>Retention, revocation, and deletion</h2>
+        <ul>
+          <li>
+            The local OAuth token remains stored until the owner deletes it or revokes
+            the application's access.
+          </li>
+          <li>
+            The owner can revoke access from the connected-app settings in their
+            Google Account.
+          </li>
+          <li>
+            The owner can delete the local OAuth files from the computer or server
+            where the bridge runs.
+          </li>
+          <li>The bridge does not retain task data as its own permanent record.</li>
+          <li>
+            Retention by Google and OpenAI is governed by those services' respective
+            policies.
+          </li>
+        </ul>
+
+        <h2>Security and limitations</h2>
+        <p>
+          The application follows a least-privilege approach. Its current OAuth
+          configuration is read-only, external service connections use HTTPS, and
+          access to local OAuth files is restricted. No technical system can provide
+          an absolute guarantee of security.
+        </p>
+        <p>
+          A future change to a write-capable scope would require separate owner consent
+          and updated public disclosures before that configuration is used.
+        </p>
+
+        <h2>Google API Limited Use disclosure</h2>
+        <p>
+          Use of information received from Google APIs will adhere to the
+          <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+          including the Limited Use requirements.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Privacy questions can be submitted through the public
+          <a href="https://github.com/renatmakes/renatmakes.github.io/issues">GitHub Issues page</a>.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell footer-row">
+        <span>Renat Tasks Bridge · Personal use only</span>
+        <a href="../terms/">Terms of Service</a>
+      </div>
+    </footer>
+  </body>
+</html>
